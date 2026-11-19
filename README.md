@@ -12,7 +12,7 @@ Mô phỏng robot **SCARA R1** tích hợp đầu kẹp **GF01 R02** để gắp
 
 **Test 2: Điều khiển ROBOT tự động từ điểm bắt đầu đến điểm đặt**
 
-ứng viên bổ sung mô trường vật lý cho mô phỏng (bổ sung lực kẹp và trọng lực)
+ứng viên bổ sung môi trường vật lý cho mô phỏng (bổ sung lực kẹp và trọng lực)
 ứng viên lựa chọn động cơ phù hợp tính toán và tích hợp sao cho phù hợp nhất với yêu cầu là tối ưu chi phí nhưng vẫn bảo đảm được hiệu năng
 
 
