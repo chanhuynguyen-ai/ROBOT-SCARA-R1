@@ -2,8 +2,7 @@
 
 Mô phỏng robot **SCARA R1** tích hợp đầu kẹp **GF01 R02** để gắp, vận chuyển và đưa **G23** vào cụm bánh xe trong MuJoCo.
 
-**Baseline:** P7 · **Tham chiếu:** V13 · **Quỹ đạo:** 2.622 frame / 13 pha · **Phạm vi:** nghiên cứu động học và hình học.
-
+**Baseline:** P7 · **Tham chiếu:** V13 · **Quỹ đạo:** 2.622 frame / 13 pha
 **Candidate test:** 
 
 **Test 1: Điều khiển ROBOT SCARA** 
