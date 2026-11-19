@@ -1,0 +1,134 @@
+{
+  "G08_banhxe_1": {
+    "VIS_G23_SOURCE_GF01_G23_FLANGE_FIXED_00": {
+      "minimum_conservative_aabb_gap_mm": 112.70612981432963,
+      "frame": 214
+    },
+    "VIS_G23_SOURCE_GF01_G23_FLANGE_FIXED_01": {
+      "minimum_conservative_aabb_gap_mm": 77.18619991000186,
+      "frame": 194
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_00": {
+      "minimum_conservative_aabb_gap_mm": 0.0,
+      "frame": 1827
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_01": {
+      "minimum_conservative_aabb_gap_mm": 8.804534242373151,
+      "frame": 0
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_02": {
+      "minimum_conservative_aabb_gap_mm": 17.54629306894506,
+      "frame": 0
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_03": {
+      "minimum_conservative_aabb_gap_mm": 20.387502638986753,
+      "frame": 0
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_04": {
+      "minimum_conservative_aabb_gap_mm": 147.84257127598383,
+      "frame": 0
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_LOWER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 88.61279648661791,
+      "frame": 1680
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_UPPER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 101.9493824708424,
+      "frame": 1680
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_LOWER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 193.26738610478031,
+      "frame": 1680
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_UPPER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 206.6039714292596,
+      "frame": 1680
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_LOWER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 13.218072379617919,
+      "frame": 0
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_UPPER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 26.56471647673744,
+      "frame": 0
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_LOWER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 117.87266199778034,
+      "frame": 0
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_UPPER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 131.21128329356037,
+      "frame": 0
+    },
+    "G23_CARGO": {
+      "minimum_conservative_aabb_gap_mm": 0.0,
+      "frame": 1406
+    }
+  },
+  "G56_banhtruoc_SEPARATE_FROM_FRONT_STEERING": {
+    "VIS_G23_SOURCE_GF01_G23_FLANGE_FIXED_00": {
+      "minimum_conservative_aabb_gap_mm": 272.0348543057214,
+      "frame": 1224
+    },
+    "VIS_G23_SOURCE_GF01_G23_FLANGE_FIXED_01": {
+      "minimum_conservative_aabb_gap_mm": 278.8567499510545,
+      "frame": 1178
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_00": {
+      "minimum_conservative_aabb_gap_mm": 130.05468456947455,
+      "frame": 1219
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_01": {
+      "minimum_conservative_aabb_gap_mm": 114.39071821101514,
+      "frame": 1353
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_02": {
+      "minimum_conservative_aabb_gap_mm": 294.5652957510973,
+      "frame": 1145
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_03": {
+      "minimum_conservative_aabb_gap_mm": 161.9672450479303,
+      "frame": 1145
+    },
+    "VIS_G23_SOURCE_GF01_G23_CARRIER_04": {
+      "minimum_conservative_aabb_gap_mm": 167.39621893494754,
+      "frame": 1145
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_LOWER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 264.5070556362986,
+      "frame": 1290
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_UPPER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 294.08579079628703,
+      "frame": 1290
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_LOWER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 159.85247111240415,
+      "frame": 1290
+    },
+    "VIS_G23_SOURCE_GF01_G23_NEG_UPPER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 189.43120374362803,
+      "frame": 1290
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_LOWER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 264.50705563629856,
+      "frame": 1184
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_UPPER_R1_00": {
+      "minimum_conservative_aabb_gap_mm": 294.08579079628703,
+      "frame": 1202
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_LOWER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 159.85247111240415,
+      "frame": 1184
+    },
+    "VIS_G23_SOURCE_GF01_G23_POS_UPPER_R2_00": {
+      "minimum_conservative_aabb_gap_mm": 189.43120374362803,
+      "frame": 1202
+    },
+    "G23_CARGO": {
+      "minimum_conservative_aabb_gap_mm": 36.38025662326816,
+      "frame": 1217
+    }
+  }
+}

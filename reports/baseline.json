@@ -1,0 +1,37 @@
+{
+  "schema": "scara-r1-validation-v1",
+  "validated_on": "2026-11-19",
+  "environment": {
+    "python": "3.12.2",
+    "numpy": "2.5.4",
+    "mujoco": "3.15.0"
+  },
+  "integrity": {
+    "p7_manifest_files": 19,
+    "v13_runtime_files": 115,
+    "mesh_references": 107,
+    "original_source_pins_preserved": true
+  },
+  "geometry_regression": {
+    "tests": 5,
+    "status": "PASS"
+  },
+  "native_replay": {
+    "status": "PASS_KINEMATIC_REPLAY_ONLY",
+    "MuJoCo_native_loaded": true,
+    "num_frames": 2622,
+    "max_tracking_error_mm": 7.545611989239943e-07,
+    "max_four_tip_error_mm": 3.668117327278907e-08,
+    "grasp_transition_jump_mm": 0.0,
+    "max_wheel_center_error_mm": 0.0,
+    "min_axle_center_to_steel_mm": 12.972165247580678,
+    "min_radial_nominal_margin_mm": 2.972165247580678,
+    "checked_2D_samples": 8732,
+    "fail_preview": [],
+    "contact_geoms_disabled": true,
+    "mj_step_and_contact_forces_tested": false,
+    "full_3d_collision_certified": false,
+    "hardware_authorized": false,
+    "successful_training_teacher_qualified": false
+  }
+}

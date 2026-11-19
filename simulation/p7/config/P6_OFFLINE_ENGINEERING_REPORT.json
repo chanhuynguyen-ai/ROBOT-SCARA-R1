@@ -1,0 +1,157 @@
+{
+  "status": "CAD_GEOMETRY_AND_ANALYTIC_IK_OFFLINE_PASS_ONLY",
+  "not_physics_not_hardware_not_training_qualified": true,
+  "source_sha256": {
+    "step": "43fde973ecd2d22fd6bd0f2ef78d60ce706ce1073ec655e42c7393312e36f060",
+    "legacy_G23_stl": "92767e22db9f3b750630280ae520d437601e971e1a7e8b6b4f10ae555b9b25ac",
+    "original_v13_trajectory": "91ba145c772326f1dcaed23f1dc17ae48966e6b2520ac0a2123e9fecd862bcfa",
+    "original_v09_scene": "c466b02a96a0e75aca965898a936e51c958aec38004350dd5ec3d3ae18005a3a"
+  },
+  "source_solid_count": 15,
+  "new_solid_count": 13,
+  "removed_covered_side_rail_solid_indices_zero_based": [
+    9,
+    14
+  ],
+  "modified_slot_main_solid_indices_zero_based": [
+    3,
+    11
+  ],
+  "cad_to_frozen": {
+    "angle_about_step_z_deg": -2.34380520362725,
+    "xy_translation_mm": [
+      356.2476071987202,
+      -28.153783782374607
+    ],
+    "z_translation_mm": 0.0,
+    "axle_seat_cad_xy_mm": [
+      -708.113,
+      0.0
+    ],
+    "axle_seat_local_m": [
+      -0.351273,
+      0.0008049999999999997
+    ],
+    "alignment_method": "AABB rotation match and exact wheel axle/seat-center registration; review CAD native before physical design"
+  },
+  "axle": {
+    "wheel": "G08 rear",
+    "rod_radius_mm_from_stl": 10.0,
+    "shaft_tips_z_m": [
+      -0.163,
+      0.163
+    ],
+    "wheel_axle_center_world_m": [
+      -0.654123,
+      -0.242875,
+      0.0
+    ]
+  },
+  "old_groove_nominal_narrow_width_mm_approx": 14.5,
+  "candidate_groove_min_width_mm_nominal": 21.6,
+  "planned_radial_clearance_per_side_mm_nominal": 0.8000000000000007,
+  "slot_polyline_waypoints_mm": [
+    [
+      -632.0,
+      -105.0
+    ],
+    [
+      -638.0,
+      -82.0
+    ],
+    [
+      -645.0,
+      -66.0
+    ],
+    [
+      -650.0,
+      -57.79
+    ],
+    [
+      -660.0,
+      -41.37
+    ],
+    [
+      -670.0,
+      -24.96
+    ],
+    [
+      -680.0,
+      -8.54
+    ],
+    [
+      -687.0,
+      -0.7
+    ],
+    [
+      -695.0,
+      0.0
+    ],
+    [
+      -708.113,
+      0.0
+    ]
+  ],
+  "slot_waypoints_count": 281,
+  "branch_robot_base_extra_shift_world_m": [
+    -0.05,
+    0.0,
+    0.0
+  ],
+  "original_staged_base_mount_m": [
+    -0.2268917,
+    -0.374358,
+    1.27
+  ],
+  "candidate_staged_base_mount_m": [
+    -0.2768917,
+    -0.374358,
+    1.27
+  ],
+  "frame_count": 2622,
+  "timebase_s": 0.025,
+  "new_phase_bounds": {
+    "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK": [
+      1324,
+      1680
+    ],
+    "FOLLOW_DUAL_AXLE_SLOTS_MOCK": [
+      1681,
+      2171
+    ]
+  },
+  "max_analytic_fk_target_error_mm": 8.746309929968238e-13,
+  "max_joint_velocity_units_s": [
+    0.30719821715867335,
+    0.022590118543763884,
+    0.578956313689651,
+    0.40423142204135337
+  ],
+  "max_joint_delta_per_frame": [
+    0.007679955428967489,
+    0.0005647529635940951,
+    0.014473907842240452,
+    0.010105785551034696
+  ],
+  "min_joint_margins": [
+    0.12739734315009565,
+    0.023573771807641468,
+    0.06220575033369502,
+    0.3664437754202208
+  ],
+  "min_axle_to_modified_plate_outline_dist_mm": [
+    10.794344952627785,
+    10.794344952627785
+  ],
+  "min_dist_frame": [
+    2023,
+    2023
+  ],
+  "shaft_to_groove_2d_offline_clearance_pass": true,
+  "intentional_interface_only": "only two axle shafts in the two widened plate grooves; all GF01/tools/tire/fixtures collision audit PENDING",
+  "mujoco_native_loaded": false,
+  "mj_step_contact_force_tested": false,
+  "bc_rl_train_authorized": false,
+  "modified_mesh": "G23_NO_SIDE_COVERS_GUIDED_CANDIDATE_ALIGNED.stl",
+  "cad_step_model": "G23_NO_SIDE_COVERS_WIDENED_SLOTS_CANDIDATE.step"
+}

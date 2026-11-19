@@ -1,0 +1,110 @@
+{
+  "project": "SCARA R1 / T03 / P7",
+  "candidate_revision": "2026-10-29",
+  "status": "OFFLINE_GEOMETRY_CANDIDATE_2D_PASS_3D_SAMPLED_ONLY_PHYSICAL_BLOCKED",
+  "source": "P6 FIX1 dual-slot CAD, V13 frozen source verified by source SHA-256",
+  "p6_guided_trajectory_sha256": "1708f6a9cea48550226f8cff157ec60c55f5f3a3244b52e32f6322bbe0d19cf0",
+  "frozen_V13_original_sources_sha256": {
+    "step": "43fde973ecd2d22fd6bd0f2ef78d60ce706ce1073ec655e42c7393312e36f060",
+    "legacy_G23_stl": "92767e22db9f3b750630280ae520d437601e971e1a7e8b6b4f10ae555b9b25ac",
+    "original_v13_trajectory": "91ba145c772326f1dcaed23f1dc17ae48966e6b2520ac0a2123e9fecd862bcfa",
+    "original_v09_scene": "c466b02a96a0e75aca965898a936e51c958aec38004350dd5ec3d3ae18005a3a"
+  },
+  "original_trajectory_frames": 2622,
+  "timebase_s": 0.025,
+  "slot_cutting_radius_before_mm": 10.8,
+  "slot_cutting_radius_after_mm": 13.0,
+  "shaft_radius_mm": 10.0,
+  "design_nominal_radial_clearance_before_mm": 0.8,
+  "design_nominal_radial_clearance_after_mm": 3.0,
+  "cad_step_solids_before": 13,
+  "cad_step_solids_after": 13,
+  "cad_plate_solid_indices_modified_zero_based": [
+    3,
+    10
+  ],
+  "unchanged_source_path_waypoints": 281,
+  "pose_and_datum_unchanged": true,
+  "final_G23_datum_world_m": [
+    -0.30285,
+    -0.24368,
+    0
+  ],
+  "p6_original_2d_section_sweep": {
+    "sweep_xy_section_only": true,
+    "frame_range_inclusive": [
+      1298,
+      2171
+    ],
+    "two_plates": [
+      "3",
+      "11"
+    ],
+    "total_frame_and_interpolation_samples": 8732,
+    "interpolation_per_pair": 4,
+    "shaft_radius_mm": 10.0,
+    "required_research_margin_mm": 0.0,
+    "min_center_to_steel_mm": 10.79434495262776,
+    "min_axle_radial_margin_mm": 0.7943449526277604,
+    "plate_center_distance_mm": [
+      10.79434495262776,
+      10.79434495262776
+    ],
+    "min_frame_by_plate": [
+      2023,
+      2023
+    ],
+    "failed_samples_preview": [],
+    "passes_2d_section_gate": true
+  },
+  "p7_new_2d_section_sweep": {
+    "sweep_xy_section_only": true,
+    "frame_range_inclusive": [
+      1298,
+      2171
+    ],
+    "two_plates": [
+      "3",
+      "11"
+    ],
+    "total_frame_and_interpolation_samples": 8732,
+    "interpolation_per_pair": 4,
+    "shaft_radius_mm": 10.0,
+    "required_research_margin_mm": 2.0,
+    "min_center_to_steel_mm": 12.972166002101796,
+    "min_axle_radial_margin_mm": 2.9721660021017957,
+    "plate_center_distance_mm": [
+      12.972166002101796,
+      12.972166002101796
+    ],
+    "min_frame_by_plate": [
+      2171,
+      2171
+    ],
+    "failed_samples_preview": [],
+    "passes_2d_section_gate": true
+  },
+  "p7_sampled_G23_vs_G08_3d": {
+    "min_sampled_signed_vertex_distance_mm": 3.0004,
+    "sampled_signed_risk_frames": 64,
+    "tri_intersection_checked_frames": 19,
+    "tri_intersection_found": false,
+    "full_conservative_3d_mesh_distance_certified": false,
+    "note": "SDF measures vertices to watertight G08 surface; selected triangle crossing tests only. 2D swept sweep reviewed separately."
+  },
+  "p7_full_2622_GF01_AABB_conservative_only": true,
+  "P6_P7_slot_margin_gain_mm": 2.1778210494740353,
+  "mujoco_physical_contact_qualified": false,
+  "GF01_full_continuous_collision_qualified": false,
+  "P7_full_3D_swept_collision_qualified": false,
+  "axle_retention_mechanics_qualified": false,
+  "force_torque_validation_qualified": false,
+  "machine_training_or_teacher_approved": false,
+  "hardware_authorized": false,
+  "next_gate": [
+    "3D continuous swept mesh: G23+GF01 vs G08/G56+fixtures",
+    "real collision proxy/contacts with mj_step",
+    "tolerances/retention/rigidity and physical controlled tests"
+  ],
+  "limitations": "Nominal 2D clearance threshold 2mm is not derived from certified tolerances. AABB overlap is inconclusive. VTK 19-frame mesh intersection & 64 signed-vertex frames do not certify all-frame continuous 3D collision. This is a geometry candidate, not robot release."
+}

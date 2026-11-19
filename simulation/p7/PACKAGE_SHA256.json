@@ -1,0 +1,25 @@
+{
+  "schema": "scara-r1-p7-curated-v1",
+  "source_manifest_sha256": "db8ebf9c61af7ec959eb3ea7ec4b01a7f2fdfe253e83d74b41db37b23d77baf4",
+  "files": {
+    "assets/G23_NO_COVERS_DUAL_SLOT_R13_CANDIDATE.step": "86268ccf2ee2ea544efe5027f5f8ac509c19b0472f299ca69a6f12cd003f1317",
+    "assets/G23_NO_COVERS_DUAL_SLOT_R13_SCENE_METERS.stl": "07b77fa5876f9aac4b094fec3ea4a52ed5fc29bfda664d92fed9b1035d1797a0",
+    "assets/G23_P6_NO_SIDE_COVERS_SCENE_METERS.stl": "27baaafa4714e04a94c4fe077330ab3b442388729699acfc5de4fcde89ff53da",
+    "assets/G23_P6_REFERENCE_13_SOLIDS.step": "56e6d1ce31fc25396350588382406127f0c4211d6945e627c765f3e4cef5315f",
+    "assets/guide_section_contours_p6_reference.json": "ef88075b93a797cf497cf6fcb094925c23027d18eb4bc62ccf069a04c2e877fb",
+    "assets/guide_section_contours_r13.json": "53128f17cfaf36cdae68a4d5e9bcd693eaaabfc98605b69ea5aa863a301f4471",
+    "assets/slot_centerline_step_mm.csv": "d4d0dac9ecb2f83ba8c465fe49a6e09626c43a56a8369b2564314fcab2f60b88",
+    "config/P6_OFFLINE_ENGINEERING_REPORT.json": "a0673421946537e57af52641d1e200e7c70211c26644360708674b3e562037a1",
+    "docs/P6_VS_P7_DUAL_SLOT_COMPARISON.png": "9f3c9042f2ae1587ebf22b0a2b135af749c4456e08ec2f54ab7b9c70ebda82bb",
+    "docs/P7_P6_VS_P7_SLOT_2D_INTERACTIVE.html": "bf76ddd57eeedbd60cb14b6e695315c07989fcdd6e49bbaa4d7106fb90445019",
+    "outputs/P7_GF01_CARGO_AABB_FULL2622.json": "284e79b2318526a5b0c89d6126e13718cd027e25e64a15934180a5b6de065846",
+    "outputs/P7_MESH_3D_AUDIT.json": "fdc3515d74740bc8ae24f8ee9a7f008b76839aefebe9fc994bb63b8791d5a6c6",
+    "outputs/P7_OFFLINE_AUDIT_REPORT.json": "7f35fb8d5c441b285eecf583a7914577e4a72c7f61a026185e1f05c0a4db5493",
+    "outputs/P7_SAMPLED_3D_GEOMETRY_CHECK.json": "153210accad5e55b44695698e868a980213622c7f12dbeebe3b292f7b6a31c14",
+    "outputs/R1_T03_P7_TRAJECTORY_2622.csv": "1708f6a9cea48550226f8cff157ec60c55f5f3a3244b52e32f6322bbe0d19cf0",
+    "tests/test_p7_static.py": "b2332062f3be389f27039a86e0becdc8e57eae3a245a045a5df04668b2b495f7",
+    "tools/p7_live_viewer.py": "f661931da0a1a3a64e0d435675154a4db231495db98da04a385084ad0f248115",
+    "tools/r1_p7_windows.py": "a1e5e627c56dfe72da2ae97ec5193380ef84a5ff43cfb0d5711b723efe78306e",
+    "tools/rebuild_p7_cad.py": "4671635170f5f5ad796c10209fa9f9fde1846cc1b7478bcb46d3c6e4504fd32e"
+  }
+}

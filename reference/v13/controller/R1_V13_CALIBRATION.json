@@ -1,0 +1,192 @@
+{
+  "release": "R1_V13_G23_CALIBRATION_CANDIDATE_20261027",
+  "purpose": "UNAPPROVED_CELL_MOUNT_CALIBRATION_CANDIDATE; NOT HARDWARE APPROVAL",
+  "fixed_feeder_world_m": [
+    -0.45,
+    -0.245,
+    0.37
+  ],
+  "fixed_assembly_world_m": [
+    -0.30285,
+    -0.24368,
+    0.0
+  ],
+  "world_vertical_axis": "Y",
+  "base_mount_frame": "R1_D1_MOUNT_UNCALIBRATED",
+  "base_mount_shift_world_m": [
+    -0.3,
+    -0.27,
+    -0.08
+  ],
+  "original_base_mount_world_m": [
+    0.0731083,
+    -0.104358,
+    1.35
+  ],
+  "staged_base_mount_world_m": [
+    -0.22689169999999997,
+    -0.374358,
+    1.27
+  ],
+  "robot_support_mount_unvalidated": true,
+  "pitch_joint_radians": 0.04084070398392019,
+  "pitch_joint_degrees": 2.339999970621754,
+  "grasp_rigid_site_order": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "flange_mount_body": "GF01_R02_SOURCE_FLANGE_MOUNT_CANDIDATE",
+  "flange_to_G23_translation_m": [
+    -0.19962367954916346,
+    -0.012195499999999969,
+    -0.41378901413664143
+  ],
+  "flange_to_G23_rotation_matrix": [
+    [
+      0.9999999999999998,
+      4.012801456464955e-12,
+      8.59959442803689e-17
+    ],
+    [
+      6.827916986518499e-17,
+      -1.1418075405096934e-16,
+      -0.9999999999999996
+    ],
+    [
+      -4.012831631736067e-12,
+      0.9999999999999993,
+      1.0774712578389535e-16
+    ]
+  ],
+  "gripper_attachment_V09_frozen": true,
+  "baseline_V513_unchanged": true,
+  "original_V09_scene_sha256": "c466b02a96a0e75aca965898a936e51c958aec38004350dd5ec3d3ae18005a3a",
+  "reference_V10_trace_sha256": "f203c7eeeb6c845b12cadf6224a527cf68735953c866886befef5fbd1c72fcad",
+  "original_V513_zip_sha256": "08e3d7f154c7c9696f86f1ba201bbc942c8828de45b7f17a93d7d18de9bb9ce0",
+  "proposed_csv_sha256": "91ba145c772326f1dcaed23f1dc17ae48966e6b2520ac0a2123e9fecd862bcfa",
+  "offline_model": "Exact XML FK for MuJoCo body/frame/joint/site; cross-checked tip sites against V10 native at q=seed to 1e-9 m",
+  "offline_status": "FK_CANDIDATE_PASS_NOT_NATIVE_MUJOCO_VALIDATED",
+  "offline_frame_count": 2622,
+  "reference_phases": [
+    "REGISTER",
+    "APPROACH",
+    "GRASP_MOCK",
+    "VERTICAL_LIFT_210MM",
+    "MOVE_OUTSIDE_REAR_WHEEL",
+    "CROSS_BETWEEN_TWO_WHEELS",
+    "HOLD_HIGH_VERIFY_CORRIDOR",
+    "FINAL_MATE_APPROACH_MOCK",
+    "LOWER_TO_DATUM_MOCK",
+    "VERIFY_HOLD_MOCK",
+    "RELEASE_MOCK",
+    "RETRACT_MOCK",
+    "DONE_REVIEW"
+  ],
+  "phase_bounds": {
+    "REGISTER": {
+      "first_frame": 0,
+      "last_frame": 21
+    },
+    "APPROACH": {
+      "first_frame": 22,
+      "last_frame": 271
+    },
+    "GRASP_MOCK": {
+      "first_frame": 272,
+      "last_frame": 295
+    },
+    "VERTICAL_LIFT_210MM": {
+      "first_frame": 296,
+      "last_frame": 1015
+    },
+    "MOVE_OUTSIDE_REAR_WHEEL": {
+      "first_frame": 1016,
+      "last_frame": 1145
+    },
+    "CROSS_BETWEEN_TWO_WHEELS": {
+      "first_frame": 1146,
+      "last_frame": 1297
+    },
+    "HOLD_HIGH_VERIFY_CORRIDOR": {
+      "first_frame": 1298,
+      "last_frame": 1323
+    },
+    "FINAL_MATE_APPROACH_MOCK": {
+      "first_frame": 1324,
+      "last_frame": 1451
+    },
+    "LOWER_TO_DATUM_MOCK": {
+      "first_frame": 1452,
+      "last_frame": 2171
+    },
+    "VERIFY_HOLD_MOCK": {
+      "first_frame": 2172,
+      "last_frame": 2193
+    },
+    "RELEASE_MOCK": {
+      "first_frame": 2194,
+      "last_frame": 2217
+    },
+    "RETRACT_MOCK": {
+      "first_frame": 2218,
+      "last_frame": 2577
+    },
+    "DONE_REVIEW": {
+      "first_frame": 2578,
+      "last_frame": 2621
+    }
+  },
+  "offline_max_relative_fk_error_mm": 1.1257272775440777e-12,
+  "offline_max_ori_error_deg": 2.4144259859785777e-10,
+  "offline_max_four_tip_error_during_carry_mm": 3.68228068006141e-08,
+  "joint_q_min": [
+    1.6820407863444051,
+    -0.016426227609948052,
+    -1.6831276032709392,
+    -1.6535135951897422,
+    0.04084070398392019
+  ],
+  "joint_q_max": [
+    2.5221440893046077,
+    0.19489377239005193,
+    -0.21420094837753184,
+    -0.37189380095470415,
+    0.04084070398392019
+  ],
+  "joint_min_margin_units": [
+    0.09584591069539217,
+    0.02357377239005195,
+    0.062202396729060805,
+    0.44088640481025765,
+    0.3954912960160798
+  ],
+  "max_velocity_units_per_second": [
+    0.2943763592457483,
+    0.022590118543763884,
+    0.5721429164393858,
+    0.4230240013556737,
+    0.0
+  ],
+  "max_joint_delta_per_frame_units": [
+    0.0073594089811432895,
+    0.0005647529635940951,
+    0.01430357291098383,
+    0.010575600033891241,
+    0.0
+  ],
+  "strict_transit_min_AABB_clearance_m": 0.036380197018623384,
+  "strict_transit_AABB_worst": [
+    1180,
+    "CROSS_BETWEEN_TWO_WHEELS",
+    "module_G08_banhxe_1"
+  ],
+  "reference_mating_is_unqualified": true,
+  "native_mujoco_verified": false,
+  "loaded_contact_and_grasp_forces_verified": false,
+  "robot_and_gripper_collision_verified": false,
+  "fixture_support_and_mount_hardware_verified": false,
+  "safe_for_hardware": false,
+  "release_not_approved_until_native_gate": true
+}

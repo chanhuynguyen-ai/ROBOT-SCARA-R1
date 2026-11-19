@@ -1,0 +1,474 @@
+{
+  "summary": {
+    "min_sampled_signed_vertex_distance_mm": 3.0004,
+    "sampled_signed_risk_frames": 64,
+    "tri_intersection_checked_frames": 19,
+    "tri_intersection_found": false,
+    "full_conservative_3d_mesh_distance_certified": false,
+    "note": "SDF measures vertices to watertight G08 surface; selected triangle crossing tests only. 2D swept sweep reviewed separately."
+  },
+  "vertex_risk_frames": [
+    {
+      "frame": 0,
+      "phase": "REGISTER",
+      "min_vertex_surface_signed_mm": 73.3302,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 272,
+      "phase": "GRASP_MOCK",
+      "min_vertex_surface_signed_mm": 73.3302,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 295,
+      "phase": "GRASP_MOCK",
+      "min_vertex_surface_signed_mm": 73.3302,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 296,
+      "phase": "VERTICAL_LIFT_210MM",
+      "min_vertex_surface_signed_mm": 73.3302,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1015,
+      "phase": "VERTICAL_LIFT_210MM",
+      "min_vertex_surface_signed_mm": 164.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1146,
+      "phase": "CROSS_BETWEEN_TWO_WHEELS",
+      "min_vertex_surface_signed_mm": 212.0036,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1298,
+      "phase": "HOLD_HIGH_VERIFY_CORRIDOR",
+      "min_vertex_surface_signed_mm": 122.7909,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1324,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 122.7909,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1349,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 121.7178,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1374,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 115.2357,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1399,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 100.3351,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1400,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 99.5427,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1424,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 78.0539,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1449,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 53.9693,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1450,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 53.0834,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1474,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 40.7262,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1499,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 40.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1500,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 40.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1524,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 35.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1549,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 15.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1550,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 15.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1574,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 25.4661,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1599,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 30.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1600,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 30.5,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1624,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 27.7929,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1649,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 29.5925,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1650,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 29.6663,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1674,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 30.3815,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1680,
+      "phase": "ALIGN_SLOT_ENTRY_NO_CONTACT_MOCK",
+      "min_vertex_surface_signed_mm": 30.3767,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1681,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 30.3766,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1699,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 30.3006,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1700,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 30.2882,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1724,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 29.5051,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1749,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 27.2906,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1750,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 27.1658,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1774,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 23.2605,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1799,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 17.3636,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1800,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 17.0937,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1824,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 10.2172,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1849,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.8271,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1850,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.6974,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1874,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0022,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1899,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0088,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1900,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0095,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1924,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0019,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1949,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.008,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1950,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0065,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1974,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0092,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 1999,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0041,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2000,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0116,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2023,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0138,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2024,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0277,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2049,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.13,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2050,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.1364,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2074,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.9887,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2099,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.4968,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2100,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.459,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2124,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.1814,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2149,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0606,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2150,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0539,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2171,
+      "phase": "FOLLOW_DUAL_AXLE_SLOTS_MOCK",
+      "min_vertex_surface_signed_mm": 3.0004,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2172,
+      "phase": "VERIFY_HOLD_MOCK",
+      "min_vertex_surface_signed_mm": 3.0004,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2200,
+      "phase": "RELEASE_MOCK",
+      "min_vertex_surface_signed_mm": 3.0004,
+      "negative_vertices": 0
+    },
+    {
+      "frame": 2621,
+      "phase": "DONE_REVIEW",
+      "min_vertex_surface_signed_mm": 3.0004,
+      "negative_vertices": 0
+    }
+  ],
+  "triangle_cases": [
+    {
+      "frame": 0,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 296,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1015,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1298,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1400,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1550,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1680,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1681,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1750,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1800,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1850,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1900,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 1950,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 2000,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 2023,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 2050,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 2100,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 2171,
+      "triangle_intersection": false
+    },
+    {
+      "frame": 2172,
+      "triangle_intersection": false
+    }
+  ]
+}

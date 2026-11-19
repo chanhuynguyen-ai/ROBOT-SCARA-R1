@@ -1,0 +1,809 @@
+{
+  "schema": "scara-r1-provenance-v1",
+  "repository_date": "2026-11-19",
+  "baseline": "P7 2026-10-29 / V13 2026-10-28",
+  "original_p7_manifest_sha256": "db8ebf9c61af7ec959eb3ea7ec4b01a7f2fdfe253e83d74b41db37b23d77baf4",
+  "original_v13_manifest_sha256": "dd58ce02f99d2ed6f62e9ceeccef1ffbf1def40947122c71d709173cc7531443",
+  "files": [
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/assets/G23_NO_COVERS_DUAL_SLOT_R13_CANDIDATE.step",
+      "path": "simulation/p7/assets/G23_NO_COVERS_DUAL_SLOT_R13_CANDIDATE.step",
+      "sha256": "86268ccf2ee2ea544efe5027f5f8ac509c19b0472f299ca69a6f12cd003f1317",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/assets/G23_NO_COVERS_DUAL_SLOT_R13_SCENE_METERS.stl",
+      "path": "simulation/p7/assets/G23_NO_COVERS_DUAL_SLOT_R13_SCENE_METERS.stl",
+      "sha256": "07b77fa5876f9aac4b094fec3ea4a52ed5fc29bfda664d92fed9b1035d1797a0",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/assets/G23_P6_NO_SIDE_COVERS_SCENE_METERS.stl",
+      "path": "simulation/p7/assets/G23_P6_NO_SIDE_COVERS_SCENE_METERS.stl",
+      "sha256": "27baaafa4714e04a94c4fe077330ab3b442388729699acfc5de4fcde89ff53da",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/assets/G23_P6_REFERENCE_13_SOLIDS.step",
+      "path": "simulation/p7/assets/G23_P6_REFERENCE_13_SOLIDS.step",
+      "sha256": "56e6d1ce31fc25396350588382406127f0c4211d6945e627c765f3e4cef5315f",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/assets/guide_section_contours_p6_reference.json",
+      "path": "simulation/p7/assets/guide_section_contours_p6_reference.json",
+      "sha256": "ef88075b93a797cf497cf6fcb094925c23027d18eb4bc62ccf069a04c2e877fb",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/assets/guide_section_contours_r13.json",
+      "path": "simulation/p7/assets/guide_section_contours_r13.json",
+      "sha256": "53128f17cfaf36cdae68a4d5e9bcd693eaaabfc98605b69ea5aa863a301f4471",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/assets/slot_centerline_step_mm.csv",
+      "path": "simulation/p7/assets/slot_centerline_step_mm.csv",
+      "sha256": "d4d0dac9ecb2f83ba8c465fe49a6e09626c43a56a8369b2564314fcab2f60b88",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/config/P6_OFFLINE_ENGINEERING_REPORT.json",
+      "path": "simulation/p7/config/P6_OFFLINE_ENGINEERING_REPORT.json",
+      "sha256": "a0673421946537e57af52641d1e200e7c70211c26644360708674b3e562037a1",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/docs/P6_VS_P7_DUAL_SLOT_COMPARISON.png",
+      "path": "simulation/p7/docs/P6_VS_P7_DUAL_SLOT_COMPARISON.png",
+      "sha256": "9f3c9042f2ae1587ebf22b0a2b135af749c4456e08ec2f54ab7b9c70ebda82bb",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/docs/P7_P6_VS_P7_SLOT_2D_INTERACTIVE.html",
+      "path": "simulation/p7/docs/P7_P6_VS_P7_SLOT_2D_INTERACTIVE.html",
+      "sha256": "bf76ddd57eeedbd60cb14b6e695315c07989fcdd6e49bbaa4d7106fb90445019",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/outputs/P7_GF01_CARGO_AABB_FULL2622.json",
+      "path": "simulation/p7/outputs/P7_GF01_CARGO_AABB_FULL2622.json",
+      "sha256": "284e79b2318526a5b0c89d6126e13718cd027e25e64a15934180a5b6de065846",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/outputs/P7_MESH_3D_AUDIT.json",
+      "path": "simulation/p7/outputs/P7_MESH_3D_AUDIT.json",
+      "sha256": "fdc3515d74740bc8ae24f8ee9a7f008b76839aefebe9fc994bb63b8791d5a6c6",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/outputs/P7_OFFLINE_AUDIT_REPORT.json",
+      "path": "simulation/p7/outputs/P7_OFFLINE_AUDIT_REPORT.json",
+      "sha256": "7f35fb8d5c441b285eecf583a7914577e4a72c7f61a026185e1f05c0a4db5493",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/outputs/P7_SAMPLED_3D_GEOMETRY_CHECK.json",
+      "path": "simulation/p7/outputs/P7_SAMPLED_3D_GEOMETRY_CHECK.json",
+      "sha256": "153210accad5e55b44695698e868a980213622c7f12dbeebe3b292f7b6a31c14",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/outputs/R1_T03_P7_TRAJECTORY_2622.csv",
+      "path": "simulation/p7/outputs/R1_T03_P7_TRAJECTORY_2622.csv",
+      "sha256": "1708f6a9cea48550226f8cff157ec60c55f5f3a3244b52e32f6322bbe0d19cf0",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/tests/test_p7_static.py",
+      "path": "simulation/p7/tests/test_p7_static.py",
+      "sha256": "b2332062f3be389f27039a86e0becdc8e57eae3a245a045a5df04668b2b495f7",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/tools/p7_live_viewer.py",
+      "path": "simulation/p7/tools/p7_live_viewer.py",
+      "sha256": "f661931da0a1a3a64e0d435675154a4db231495db98da04a385084ad0f248115",
+      "content_changed": false
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/tools/r1_p7_windows.py",
+      "path": "simulation/p7/tools/r1_p7_windows.py",
+      "sha256": "a1e5e627c56dfe72da2ae97ec5193380ef84a5ff43cfb0d5711b723efe78306e",
+      "content_changed": true,
+      "original_sha256": "f8b73e8b095b089fd0f7503013810de972cc7cf68d5930e20d8610419864c53f",
+      "change": "Reference path relocation and curated snapshot verifier; geometry and motion algorithms preserved."
+    },
+    {
+      "source": "R1_T03_P7_DUAL_SLOT_COLLISION_CANDIDATE_20261029/tools/rebuild_p7_cad.py",
+      "path": "simulation/p7/tools/rebuild_p7_cad.py",
+      "sha256": "4671635170f5f5ad796c10209fa9f9fde1846cc1b7478bcb46d3c6e4504fd32e",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/01_CURRENT_CONTROLLER/R1_V13_COVER_ALIGN_SPEEDFIX_20261028/R1_V13_SIMULATION.py",
+      "path": "reference/v13/controller/R1_V13_SIMULATION.py",
+      "sha256": "aac58660731732210fc4d40d824061d12bb02e1e568cc9997cc12c03491411ea",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/01_CURRENT_CONTROLLER/R1_V13_COVER_ALIGN_SPEEDFIX_20261028/R1_V11_CORE_FROZEN.py",
+      "path": "reference/v13/controller/R1_V11_CORE_FROZEN.py",
+      "sha256": "1c976b0912242313b6acab11a100c805590187f03a22e0473b4671de96ea6694",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/01_CURRENT_CONTROLLER/R1_V13_COVER_ALIGN_SPEEDFIX_20261028/R1_V13_CALIBRATION.json",
+      "path": "reference/v13/controller/R1_V13_CALIBRATION.json",
+      "sha256": "0247733829c46281fbaeda4a445d509554dce891aee6e308c46d8d00750d3167",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/01_CURRENT_CONTROLLER/R1_V13_COVER_ALIGN_SPEEDFIX_20261028/R1_V13_TRAJECTORY_2622.csv",
+      "path": "reference/v13/controller/R1_V13_TRAJECTORY_2622.csv",
+      "sha256": "91ba145c772326f1dcaed23f1dc17ae48966e6b2520ac0a2123e9fecd862bcfa",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/01_CURRENT_CONTROLLER/R1_V13_COVER_ALIGN_SPEEDFIX_20261028/R1_V513_ORIGINAL.zip",
+      "path": "reference/v13/controller/R1_V513_ORIGINAL.zip",
+      "sha256": "08e3d7f154c7c9696f86f1ba201bbc942c8828de45b7f17a93d7d18de9bb9ce0",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V09_GF01_MATED.xml",
+      "path": "reference/v13/scene/R1_V09_GF01_MATED.xml",
+      "sha256": "c466b02a96a0e75aca965898a936e51c958aec38004350dd5ec3d3ae18005a3a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_BASE_00.stl",
+      "path": "reference/v13/scene/FULL_SCARA_BASE_00.stl",
+      "sha256": "09adeee5bff7423846d9914d45b252c12dd5bdf478a19cbeebaa6267e1cc57b4",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_BASE_01.stl",
+      "path": "reference/v13/scene/FULL_SCARA_BASE_01.stl",
+      "sha256": "b17d4c27b0fed69c0845fb4618e9e1f41fdcca87fe7f74726195e4c10923b9bc",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_BASE_02.stl",
+      "path": "reference/v13/scene/FULL_SCARA_BASE_02.stl",
+      "sha256": "aa06947b4eb5e9a3053b3a146fa9e1f248d65368a4b12ed4bf27a724d37c1150",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_BASE_03.stl",
+      "path": "reference/v13/scene/FULL_SCARA_BASE_03.stl",
+      "sha256": "7255d43edc39ac077f4f2acadd4d14d1b7123b14ae9917974a6ebb76b2643479",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_BASE_04.stl",
+      "path": "reference/v13/scene/FULL_SCARA_BASE_04.stl",
+      "sha256": "650e971e0a50feca70b89b334d7b81217ffee7f111a9c1a6e788451e314075f9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_BASE_05.stl",
+      "path": "reference/v13/scene/FULL_SCARA_BASE_05.stl",
+      "sha256": "0680a5e3f8c64ce079ed75b941af7de385acdea1d18703810dd1d318e8c8f740",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LIFT_00.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LIFT_00.stl",
+      "sha256": "8cf79b85a65fa01d2543985d071bdef5ff5be7d2cead2678cd7236835e1cba3a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LIFT_01.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LIFT_01.stl",
+      "sha256": "654f510dcd4a44f0969810af9c145d9a0ffd14cfb6d8c4d874e257c3141b5b92",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LIFT_02.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LIFT_02.stl",
+      "sha256": "4f35550d8556f70915066111a24b48e89f6093a64f0970e303c834497b7055b5",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LIFT_03.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LIFT_03.stl",
+      "sha256": "30961a7ebd11ae606dcf0fc23f4c45cc39ce07724b827e0ec4fdf8d6c27ed8fc",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LIFT_04.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LIFT_04.stl",
+      "sha256": "d3280f72894bbfed7de4f46f10a887122f7bb37b580770453b629c0c8aafd612",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LINK1_00.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LINK1_00.stl",
+      "sha256": "b0c453025c4753ba3db37ee827671bc54db0342663c5f476461fce2835a34691",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LINK1_01.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LINK1_01.stl",
+      "sha256": "7af609211536274b2bcf5cceef14980d12f52434b1419c331572f5b400f72282",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LINK2_00.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LINK2_00.stl",
+      "sha256": "c45b31ce5fe574fd9d4eb57b6603578520d84c9813b9d6358feec53bbd9f24e9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LINK2_01.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LINK2_01.stl",
+      "sha256": "b62c2878056965fce48c461023dbd4372ec589f817185b4b857fe5566dfd9be0",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LINK2_02.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LINK2_02.stl",
+      "sha256": "6511e13b00db472fc79af2e552689a0db366095185a8b78d02aa2f9c023d9085",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LINK2_03.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LINK2_03.stl",
+      "sha256": "dc6b16c199b678aa9733784a81ba540a92626d5959219f5602d641bd9374c9ea",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_LINK2_04.stl",
+      "path": "reference/v13/scene/FULL_SCARA_LINK2_04.stl",
+      "sha256": "8fc9d9eab4475e2e594a92e49c8d4d221595654742e7f21905e3144aecd0ea31",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/FULL_SCARA_WRIST_00.stl",
+      "path": "reference/v13/scene/FULL_SCARA_WRIST_00.stl",
+      "sha256": "c68c04ebae5d4294b819bfafaa4c4e064b58eaaea8c20fa5ef824c8bd78d5b4c",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/G08_banhxe_1.stl",
+      "path": "reference/v13/scene/G08_banhxe_1.stl",
+      "sha256": "dcaf50d26ac51b99a9fb89d9c817502a0e48f7a3abc656918933270dab6ac26e",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/G23_gapxe_1.stl",
+      "path": "reference/v13/scene/G23_gapxe_1.stl",
+      "sha256": "92767e22db9f3b750630280ae520d437601e971e1a7e8b6b4f10ae555b9b25ac",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/G29_khunngxe_sau_moi_1.stl",
+      "path": "reference/v13/scene/G29_khunngxe_sau_moi_1.stl",
+      "sha256": "e52b177660dff7f5e83b2474a24cf22db5995169ad189ad3e2be5093d8f68594",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/G56_banhtruoc_SEPARATE_FROM_FRONT_STEERING.stl",
+      "path": "reference/v13/scene/G56_banhtruoc_SEPARATE_FROM_FRONT_STEERING.stl",
+      "sha256": "2764de250952c70498584acf442f84240c34a8afd57ed428f30bcbb409f8abd9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_CARRIER_00.stl",
+      "path": "reference/v13/scene/GF01_G23_CARRIER_00.stl",
+      "sha256": "1f6cafd141f7b02a0123d29364dfe47ee66654c6d8da877b6b771e477df5850e",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_CARRIER_01.stl",
+      "path": "reference/v13/scene/GF01_G23_CARRIER_01.stl",
+      "sha256": "ba9212d11c5d2bf7cc4457493e86d46f6cc6098587d3414d6d82297b23d65f98",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_CARRIER_02.stl",
+      "path": "reference/v13/scene/GF01_G23_CARRIER_02.stl",
+      "sha256": "1784284d83aa2cfd033e8ae25fcf2844d507eafe48a1093b97594b3ab3ef71b1",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_CARRIER_03.stl",
+      "path": "reference/v13/scene/GF01_G23_CARRIER_03.stl",
+      "sha256": "95b76f336379857cab729289ae5f42248ffd1f1262e22400ebefa7bc7e4f2c6a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_CARRIER_04.stl",
+      "path": "reference/v13/scene/GF01_G23_CARRIER_04.stl",
+      "sha256": "b429e5da47a43b790643d4b056683c8d1d116eb7a5cb0030661a0f4944032984",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_FLANGE_FIXED_00.stl",
+      "path": "reference/v13/scene/GF01_G23_FLANGE_FIXED_00.stl",
+      "sha256": "5b6e60adf9520fa7f62359e5d9b0dfaafa5ba19eacd417fa2a19364d37e04949",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_FLANGE_FIXED_01.stl",
+      "path": "reference/v13/scene/GF01_G23_FLANGE_FIXED_01.stl",
+      "sha256": "5e148929fc640af6b6ef1646e7422a81dadd6d804aa9e15a9bb61080c8f8dd41",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_NEG_LOWER_R1_00.stl",
+      "path": "reference/v13/scene/GF01_G23_NEG_LOWER_R1_00.stl",
+      "sha256": "e12982685d023bdb1b341eaa8d6ef1ee3cc52e716dfcb679f454a5e69672698c",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_NEG_LOWER_R2_00.stl",
+      "path": "reference/v13/scene/GF01_G23_NEG_LOWER_R2_00.stl",
+      "sha256": "b081b10912cda731c605b39e7771d32b758d6c1329324407b737a90fd7fe560d",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_NEG_UPPER_R1_00.stl",
+      "path": "reference/v13/scene/GF01_G23_NEG_UPPER_R1_00.stl",
+      "sha256": "c62e897881a1608afe2871ad68469e5e64a065e5574cc33924d98780a3f28808",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_NEG_UPPER_R2_00.stl",
+      "path": "reference/v13/scene/GF01_G23_NEG_UPPER_R2_00.stl",
+      "sha256": "1f0ba88cede721a8e606dd0fab86361fa81689ab6c59fafc80f95b5ee9fd9328",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_POS_LOWER_R1_00.stl",
+      "path": "reference/v13/scene/GF01_G23_POS_LOWER_R1_00.stl",
+      "sha256": "2c3d73e548994a13ba368ff7e9e9abfd799b2b30b33cb8cf2c8c25d2582cbd68",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_POS_LOWER_R2_00.stl",
+      "path": "reference/v13/scene/GF01_G23_POS_LOWER_R2_00.stl",
+      "sha256": "d87467d65724a546382c2452bd0c49dbfa517337a9186b4a86d4ff1af51aa451",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_POS_UPPER_R1_00.stl",
+      "path": "reference/v13/scene/GF01_G23_POS_UPPER_R1_00.stl",
+      "sha256": "7c07906ffd48358ddc56d9058ba0fb2b6f10053bc42e87513e9bd1ec6657bd17",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/GF01_G23_POS_UPPER_R2_00.stl",
+      "path": "reference/v13/scene/GF01_G23_POS_UPPER_R2_00.stl",
+      "sha256": "73503cd941a552ac38db776a35cd6e2dc36e576b0909ced38e181b9c6ef95431",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1__R1SRC_0001.stl",
+      "path": "reference/v13/scene/R1__R1SRC_0001.stl",
+      "sha256": "bcb3610e62f98f30891e498eaaa7ad2330b8729dc4f7f3252238494669b2d031",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1__R1SRC_0002.stl",
+      "path": "reference/v13/scene/R1__R1SRC_0002.stl",
+      "sha256": "c31499b5c577253f66c09c9e7848a6b3c8b5557f7c23883ef8e8d97c995c0c95",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1__R1SRC_0003.stl",
+      "path": "reference/v13/scene/R1__R1SRC_0003.stl",
+      "sha256": "8d814c31e9238c4321c0ac406d4ae0d95be4450f99f411f15d6498c52ad8bd13",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1__R1SRC_0004.stl",
+      "path": "reference/v13/scene/R1__R1SRC_0004.stl",
+      "sha256": "ec26c4e77024466d21f027cd5c62884d0dd9ae1fbd712ce6b957b94852ca7845",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1__R1SRC_0005.stl",
+      "path": "reference/v13/scene/R1__R1SRC_0005.stl",
+      "sha256": "ab3a78da4e6f13871c81e7c861060e1133c5820f82a46386a4b39ed57a4b0c39",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1__R1SRC_0006.stl",
+      "path": "reference/v13/scene/R1__R1SRC_0006.stl",
+      "sha256": "cc3d5d6cb323594d49c8bdd17ac78c4422c9ee5dc75d356ce0e6b9c4403b499c",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_01_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_01_BASE_FIXED_00.stl",
+      "sha256": "cb19fc3f484a2a263f20a09298b234943d9257759ee748042c44bf0d922295c5",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_02_J1_TOWER_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_02_J1_TOWER_00.stl",
+      "sha256": "e7537679539613604d904db499ba07f5283b58e0e6683a1abc1dbe0c82a466e8",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_03_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_03_BASE_FIXED_00.stl",
+      "sha256": "c0fc7f1f798941ff399221676cd098598a302ca9fec7caa7254af44fa7639a4a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_04_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_04_J3_ARM1_00.stl",
+      "sha256": "9f2a9ea0c577d26f46e0586ee48a31708c04f6ac68ef9401e605ea95ea2f3cf7",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_05_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_05_BASE_FIXED_00.stl",
+      "sha256": "43c06afd94dde2aef7d1b8df4232ad27158096458394c7e90187d444fa829739",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_06_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_06_BASE_FIXED_00.stl",
+      "sha256": "771edfa960105f178fed3815c1eae985d4a8fd3df546d8fb9afaa27c035e7e2c",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_07_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_07_BASE_FIXED_00.stl",
+      "sha256": "1a5d4721928d7df6ce53257d935f85641e2565cca41a4591e1b8fe57fa6a332a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_08_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_08_J3_ARM1_00.stl",
+      "sha256": "a94e1be556f5df107bf71ba8a7e8013b3c03306766f3163c604cbe44f98b175c",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_09_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_09_J3_ARM1_00.stl",
+      "sha256": "93a37a91936c2e63d4c8f928920e0d91794691a4fae8631907100e73f040d76a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_10_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_10_BASE_FIXED_00.stl",
+      "sha256": "8dc8f030e48743b35571c950bf93f2489b866dbc74c07e033589dc106e16c27f",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_10_BASE_FIXED_01.stl",
+      "path": "reference/v13/scene/R1_V05_PART_10_BASE_FIXED_01.stl",
+      "sha256": "d17fbae13cfea879745f1f2347cb712a7dad5e11dff4bb5120497412d1d23416",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_10_BASE_FIXED_02.stl",
+      "path": "reference/v13/scene/R1_V05_PART_10_BASE_FIXED_02.stl",
+      "sha256": "b04a48fc17aa59f8dbd77814e4235cd13c4648659d0c3fb924343f3ce7155a19",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_11_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_11_J3_ARM1_00.stl",
+      "sha256": "38ddb1a218b11ba17a62cb27c5316588c229b2b499609199b7a37ba7195f6941",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_12_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_12_J3_ARM1_00.stl",
+      "sha256": "c3422a126a0ae532ff7d34595f97afb4923661b26d747aa731c90e792021dd50",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_13_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_13_BASE_FIXED_00.stl",
+      "sha256": "33573d20bd48e85cd5cb0833e5b3040706d06b974b5ab9e17b24f2b78581643b",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_14_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_14_BASE_FIXED_00.stl",
+      "sha256": "e8c3e9bebeca18fcb5caf3b5f6ae111d597665506089cea944180c2ecf9ee661",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_15_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_15_BASE_FIXED_00.stl",
+      "sha256": "9dd5421b05f0ec35d87316e29126b8c71fdf9894da7afce844d6cb7ead2cfeb0",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_16_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_16_BASE_FIXED_00.stl",
+      "sha256": "8bcd41639a1d250943c27d5fb0695fdddf07cd76c1fcb511a57e5d94f4a017e3",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_17_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_17_BASE_FIXED_00.stl",
+      "sha256": "8a74e7fa97883e579e2b8a251214d56696733f7b1ec84a960d2d7a5d3d82b3c1",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_18_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_18_BASE_FIXED_00.stl",
+      "sha256": "780f9112c612f7d7e48ef261c2c87e58f1c036502d0e23a36b691dd8feea1642",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_19_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_19_J3_ARM1_00.stl",
+      "sha256": "57c1a58d319f321b6e79c7c92c2ec14fb42f9cf2a7fad93220afcd401b4f2170",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_20_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_20_BASE_FIXED_00.stl",
+      "sha256": "2616e5facc37dee69bdb40ae6f8d1a81df1f4049c57ff9321482dbc161574e5d",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_21_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_21_BASE_FIXED_00.stl",
+      "sha256": "de36d7b12f31a5730f55cc2fc68003bd5d6bdf2150d7cb0ce33853879aa21fd8",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_22_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_22_BASE_FIXED_00.stl",
+      "sha256": "33e07e5fa8ae3a3d3fd13f177967cabd09a0282781bd509f3f7fc637b020b48d",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_23_J1_TOWER_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_23_J1_TOWER_00.stl",
+      "sha256": "5cfd25d9e32c3b009ecd60229f15a8f7451243263368d84298d4ff5fa18d516e",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J2_ARM2_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J2_ARM2_00.stl",
+      "sha256": "12d4f3b66409191c1b9be421bd4901deb5ab464c64e9c36ca94a969788a9c3d9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J2_ARM2_01.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J2_ARM2_01.stl",
+      "sha256": "99426fbaba7a5f30e781a1954ad0f653727c09bf722306ca4080a7ae67bf1de2",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J2_ARM2_02.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J2_ARM2_02.stl",
+      "sha256": "b27502090b485b27bc32570af5402888edcb22151254b4887ba0b7d1ad243a07",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J2_ARM2_03.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J2_ARM2_03.stl",
+      "sha256": "73c79e8825cf49701d013a479d516cae8a0a01c459c0ec2f4992085c1ef353c9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J3_ARM1_00.stl",
+      "sha256": "439dd20038f65205beccd9f0df9dd9baeff379f84b4fc5d4a2427256f0a31460",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J3_ARM1_01.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J3_ARM1_01.stl",
+      "sha256": "1e9fcd827eb32b6666451154965b0127ea32892df580b35ec937d725b7d8b803",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J4_TOOL_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J4_TOOL_00.stl",
+      "sha256": "e83a48b2289bfe2efb56857b62abd99bf6afa312c2c8c8a9f58fb6fccdaada01",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_24_J4_TOOL_01.stl",
+      "path": "reference/v13/scene/R1_V05_PART_24_J4_TOOL_01.stl",
+      "sha256": "970dcceb0e0801dbb28ba7a6875b0312cd2eadb16fb36e0b80f7bb2f60d1f774",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_25_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_25_J3_ARM1_00.stl",
+      "sha256": "7035abecb48c9a5c0822682f0c9bc8a66771b618905b22f136953cdc85fc8ce3",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_25_J3_ARM1_01.stl",
+      "path": "reference/v13/scene/R1_V05_PART_25_J3_ARM1_01.stl",
+      "sha256": "fc5ac9e08a657f9be5cda290da270c59d590154b58eb7d749efdaf7aab5acab9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_25_J3_ARM1_02.stl",
+      "path": "reference/v13/scene/R1_V05_PART_25_J3_ARM1_02.stl",
+      "sha256": "2cf27a52921779cf26c8678fbcd6af035349b998c4a1b79588d5cdfc87b6117b",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_26_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_26_J3_ARM1_00.stl",
+      "sha256": "a402e90c3335115b689db8a191d7c8c76cb2bb1b87ded8aad97ac2ab4d3d773a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_26_J3_ARM1_01.stl",
+      "path": "reference/v13/scene/R1_V05_PART_26_J3_ARM1_01.stl",
+      "sha256": "e903b374595cfa4a59c442a8f37c3ab2f50bfd8ad960a4de034722b922a705c9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_26_J3_ARM1_02.stl",
+      "path": "reference/v13/scene/R1_V05_PART_26_J3_ARM1_02.stl",
+      "sha256": "402e272325ff1173b796c696e2acc7c20d38e4e13901694ce75d8c669e61a3fc",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_27_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_27_J3_ARM1_00.stl",
+      "sha256": "1228e3d38ed852541641f1a11bbdf0538e4b89b6a371368450157c811ffd4cdd",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_28_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_28_BASE_FIXED_00.stl",
+      "sha256": "aecc9c1f01dd9fe586918c1f37a53f0780392a1bb6b07c310fe90c41890e432d",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_28_BASE_FIXED_01.stl",
+      "path": "reference/v13/scene/R1_V05_PART_28_BASE_FIXED_01.stl",
+      "sha256": "6c6ceeacfd1ff4d0e184c0c8a7493cbbe878f62babe9978c8dc303562a76808a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_29_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_29_BASE_FIXED_00.stl",
+      "sha256": "02e834a3ac47622fa166f1a33b77020746eb27fc5cc21a97cd11110e55f40541",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_30_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_30_BASE_FIXED_00.stl",
+      "sha256": "09085c4727a45c44e512254a60e85f2961a25c28fc0eb49a5efe9f950a5d21d3",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_31_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_31_BASE_FIXED_00.stl",
+      "sha256": "391b34fd96607ee84f2a7da05a469cc394e9e3ec9d366fe1b832f1c11613ac62",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_32_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_32_BASE_FIXED_00.stl",
+      "sha256": "c621b6fb034d6321523b3e2fb794b9612447233817960997b06829d4f1d3bc1b",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_33_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_33_BASE_FIXED_00.stl",
+      "sha256": "59b2daeaba7b54550705eae9307f46addbbcc3c83482c3eee57d9fdddb2fef6b",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_34_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_34_BASE_FIXED_00.stl",
+      "sha256": "da2267ecfcab7eaccd55863a9cf1eaca9386e1bad61abc6dc134178c91924e94",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_35_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_35_BASE_FIXED_00.stl",
+      "sha256": "2c4a6273bafeb1f6e0f2a2224772e20bd8bd7a1bdce3f370087f8b4c80dc37c4",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_36_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_36_BASE_FIXED_00.stl",
+      "sha256": "6b2cf145b65b5d041d61d42adcdbe0544b6c16845a2b6b5815d959214ebe993b",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_37_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_37_BASE_FIXED_00.stl",
+      "sha256": "bd3b2ad25e2c309c94536d8a1363ad7626d93a03df433b4c7a6821fce7bbd6c4",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_38_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_38_BASE_FIXED_00.stl",
+      "sha256": "d6eea1860858c7cab88de00b26fa37a8f59d199491ff5751af06ac5a071e17c8",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_39_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_39_BASE_FIXED_00.stl",
+      "sha256": "7278d8f0b43bb92b940cf89adafd0937aff6b49419269f8f65e890b97a484436",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_40_J1_TOWER_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_40_J1_TOWER_00.stl",
+      "sha256": "b729142b6e9bd991b70d79eafdbed6d6733c8d853da593b4c6ca65838ab1dd2a",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_41_J1_TOWER_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_41_J1_TOWER_00.stl",
+      "sha256": "c2f3caa1b56ec12fb8e99c3870e80dc32946601e0782b5108174a0a774d4d59c",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_42_J1_TOWER_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_42_J1_TOWER_00.stl",
+      "sha256": "0a635573bd85a87b5d3ef0765d31817a3098996d49aefd83f8000ab6635e944b",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_43_J1_TOWER_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_43_J1_TOWER_00.stl",
+      "sha256": "d946b640e659ffe35f8604c347b5d448fd2951330218816b196951968bd7b862",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_44_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_44_BASE_FIXED_00.stl",
+      "sha256": "82f6fbdb091d8dd3955aecdcc77d57821ba71a697a11f3e330bfdd6b094b31b5",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_45_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_45_BASE_FIXED_00.stl",
+      "sha256": "67b726d3f5924543ceb5551665d3a163cb03f477985d9fd25bcb6396b2a5d7f9",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_46_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_46_BASE_FIXED_00.stl",
+      "sha256": "508d3e1057427d31e3f40e50155705be2aeb71e2038c02c79e84307b01925398",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_47_BASE_FIXED_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_47_BASE_FIXED_00.stl",
+      "sha256": "6528f894e3d79463dd5a5582b14821da88cc8ed858a05cab75a9f2f66e6bf972",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_48_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_48_J3_ARM1_00.stl",
+      "sha256": "7822ad90ee8230799a841a66ddcaa76dddaf22c492d30e44c2ec10dfa6bfccc1",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/02_FROZEN_V09_SCENE/scene/R1_V05_PART_49_J3_ARM1_00.stl",
+      "path": "reference/v13/scene/R1_V05_PART_49_J3_ARM1_00.stl",
+      "sha256": "025a1b695528a1df94d3ffcac2885fd7e161be435e40b019af9aa61f6f639d81",
+      "content_changed": false
+    },
+    {
+      "source": "R1_V13_COVER_ALIGN_SPEEDFIX_FROZEN_20261028/03_FROZEN_V10_REFERENCE/R1_V10_G23_TRAJECTORY_2622.csv",
+      "path": "reference/v13/trajectories/v10.csv",
+      "sha256": "f203c7eeeb6c845b12cadf6224a527cf68735953c866886befef5fbd1c72fcad",
+      "content_changed": false
+    }
+  ]
+}

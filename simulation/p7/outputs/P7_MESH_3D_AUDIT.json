@@ -1,0 +1,410 @@
+{
+  "status": "PASS_SAMPLED_TRIANGLES_ONLY",
+  "triangle_frame_count": 19,
+  "signed_vertex_sample_frames": 64,
+  "minimum_sampled_signed_vertex_distance_mm": 3.0003757420010695,
+  "triangle_tests": [
+    {
+      "frame": 0,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 296,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1015,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1298,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1400,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1550,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1680,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1681,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1750,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1800,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1850,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1900,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 1950,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 2000,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 2023,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 2050,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 2100,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 2171,
+      "triangle_intersections_detected": 0
+    },
+    {
+      "frame": 2172,
+      "triangle_intersections_detected": 0
+    }
+  ],
+  "signed_vertex_tests": [
+    {
+      "frame": 0,
+      "minimum_signed_vertex_distance_mm": 73.33018512505245,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 272,
+      "minimum_signed_vertex_distance_mm": 73.33018512505245,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 295,
+      "minimum_signed_vertex_distance_mm": 73.33018512505245,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 296,
+      "minimum_signed_vertex_distance_mm": 73.33018512505245,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1015,
+      "minimum_signed_vertex_distance_mm": 164.50000103918512,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1146,
+      "minimum_signed_vertex_distance_mm": 212.00360592578667,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1298,
+      "minimum_signed_vertex_distance_mm": 122.79093364343225,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1324,
+      "minimum_signed_vertex_distance_mm": 122.79093364326707,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1349,
+      "minimum_signed_vertex_distance_mm": 121.71780491764974,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1374,
+      "minimum_signed_vertex_distance_mm": 115.23565357485313,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1399,
+      "minimum_signed_vertex_distance_mm": 100.33509714386747,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1400,
+      "minimum_signed_vertex_distance_mm": 99.54274150806883,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1424,
+      "minimum_signed_vertex_distance_mm": 78.05394955934126,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1449,
+      "minimum_signed_vertex_distance_mm": 53.96925705931525,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1450,
+      "minimum_signed_vertex_distance_mm": 53.083447157274335,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1474,
+      "minimum_signed_vertex_distance_mm": 40.72617873037286,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1499,
+      "minimum_signed_vertex_distance_mm": 40.500000668343816,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1500,
+      "minimum_signed_vertex_distance_mm": 40.50003756074439,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1524,
+      "minimum_signed_vertex_distance_mm": 35.499997437000275,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1549,
+      "minimum_signed_vertex_distance_mm": 15.500004573448047,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1550,
+      "minimum_signed_vertex_distance_mm": 15.500004179554184,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1574,
+      "minimum_signed_vertex_distance_mm": 25.466056995266705,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1599,
+      "minimum_signed_vertex_distance_mm": 30.500002205371857,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1600,
+      "minimum_signed_vertex_distance_mm": 30.500002205371857,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1624,
+      "minimum_signed_vertex_distance_mm": 27.79293165798798,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1649,
+      "minimum_signed_vertex_distance_mm": 29.592532517839,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1650,
+      "minimum_signed_vertex_distance_mm": 29.666262661714853,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1674,
+      "minimum_signed_vertex_distance_mm": 30.381471316894437,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1680,
+      "minimum_signed_vertex_distance_mm": 30.376651410458443,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1681,
+      "minimum_signed_vertex_distance_mm": 30.376639685045603,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1699,
+      "minimum_signed_vertex_distance_mm": 30.300591801294033,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1700,
+      "minimum_signed_vertex_distance_mm": 30.28821785813074,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1724,
+      "minimum_signed_vertex_distance_mm": 29.505087054722548,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1749,
+      "minimum_signed_vertex_distance_mm": 27.290582244862666,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1750,
+      "minimum_signed_vertex_distance_mm": 27.165845980243528,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1774,
+      "minimum_signed_vertex_distance_mm": 23.260488663785637,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1799,
+      "minimum_signed_vertex_distance_mm": 17.363622253775787,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1800,
+      "minimum_signed_vertex_distance_mm": 17.09371653489103,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1824,
+      "minimum_signed_vertex_distance_mm": 10.217157987318181,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1849,
+      "minimum_signed_vertex_distance_mm": 3.8271338761587668,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1850,
+      "minimum_signed_vertex_distance_mm": 3.697382320178465,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1874,
+      "minimum_signed_vertex_distance_mm": 3.0022344800708143,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1899,
+      "minimum_signed_vertex_distance_mm": 3.0087910935373547,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1900,
+      "minimum_signed_vertex_distance_mm": 3.0095455127087014,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1924,
+      "minimum_signed_vertex_distance_mm": 3.0018908259236237,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1949,
+      "minimum_signed_vertex_distance_mm": 3.0080485231893594,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1950,
+      "minimum_signed_vertex_distance_mm": 3.0065188144953705,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1974,
+      "minimum_signed_vertex_distance_mm": 3.009196844984978,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 1999,
+      "minimum_signed_vertex_distance_mm": 3.004107602555723,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2000,
+      "minimum_signed_vertex_distance_mm": 3.01160102892792,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2023,
+      "minimum_signed_vertex_distance_mm": 3.0137608588241136,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2024,
+      "minimum_signed_vertex_distance_mm": 3.027690904862624,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2049,
+      "minimum_signed_vertex_distance_mm": 3.1300104582331154,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2050,
+      "minimum_signed_vertex_distance_mm": 3.1364002187659628,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2074,
+      "minimum_signed_vertex_distance_mm": 3.988685452101297,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2099,
+      "minimum_signed_vertex_distance_mm": 3.496841083274372,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2100,
+      "minimum_signed_vertex_distance_mm": 3.4589902452071484,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2124,
+      "minimum_signed_vertex_distance_mm": 3.1813750567644674,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2149,
+      "minimum_signed_vertex_distance_mm": 3.0606235794222023,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2150,
+      "minimum_signed_vertex_distance_mm": 3.0538641036911858,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2171,
+      "minimum_signed_vertex_distance_mm": 3.0003757420010695,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2172,
+      "minimum_signed_vertex_distance_mm": 3.0003757420010695,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2200,
+      "minimum_signed_vertex_distance_mm": 3.0003757420010695,
+      "inside_vertices": 0
+    },
+    {
+      "frame": 2621,
+      "minimum_signed_vertex_distance_mm": 3.0003757420010695,
+      "inside_vertices": 0
+    }
+  ],
+  "GF01_full_mesh_continuous_checked": false,
+  "complete_3D_swept_collision_certified": false,
+  "physics_contact_or_reaction_force_qualified": false,
+  "hardware_authorized": false
+}

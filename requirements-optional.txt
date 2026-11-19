@@ -1,0 +1,5 @@
+# Optional mesh audit and CAD authoring dependencies.
+vtk
+cadquery
+shapely
+trimesh

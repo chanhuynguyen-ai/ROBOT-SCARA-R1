@@ -1,0 +1,7 @@
+# Pinned snapshots must have identical bytes on every platform.
+* -text
+*.stl binary
+*.step binary
+*.STEP binary
+*.png binary
+*.zip binary
